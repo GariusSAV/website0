@@ -1,0 +1,49 @@
+body {
+	background-color: #E88718;
+	font-family: sans-serif;
+	border: thin solid;
+	margin: 0 10%;
+	text-align: center;
+	font-size: x-large;
+}
+
+h1, h2 {
+	border: solid;
+	background-color: white;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 140%;
+}
+
+p {
+	font-size: 150%;
+}
+
+
+#джинсы, #брюки, #костюмы, #байки, #рубашки, #куртки, #майки {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	margin: 20px;
+}
+
+#джинсы0, #брюки0, #костюмы0, #байки0, #рубашки0, #куртки0, #майки0 {
+	width: 100px;
+}
+
+#bigImg0, #bigImg1, #bigImg2, #bigImg3, #bigImg4, #bigImg5, #bigImg6 {
+	display: none;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: -100px;
+	left: -150px;
+	z-index: 1;
+}
+
+
